@@ -22,24 +22,6 @@
     foaf:mbox <mailto:katrina.exter@vliz.be> ;
     .
     
-<https://orcid.org/0000-0000-0000-0000>
-    a foaf:Person ;
-    foaf:name "Dixie Normous" ;
-    foaf:mbox <mailto:test@doe.com> ;
-    .
-    
-<https://orcid.org/0000-0000-0000-0000>
-    a foaf:Person ;
-    foaf:name "Phil McCraken" ;
-    foaf:mbox <mailto:test@doe.com> ;
-    .
-    
-<https://orcid.org/0000-0000-0000-0000>
-    a foaf:Person ;
-    foaf:name "Mike Doe" ;
-    foaf:mbox <mailto:test@doe.com> ;
-    .
-    
 
 <https://vliz-be-opsci.github.io/vliz-be-opsci/example-bon-site-to-pages> rdf:type foaf:Project ;
     dc:title "Autonomous Reef Monitoring System" ;
