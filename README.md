@@ -1,3 +1,11 @@
+TESTING!!!!
+
+ARMS-MBON is a European Marine Biodiversity Observation Network (MBON) of Autonomous Reef Monitoring Structures (ARMS). The ARMS units are placed in the vicinity of marine stations, ports, marinas, and long-term ecological research sites (LTER) distributed over Europe and polar regions. The units are emplaced for months at a time and are populated by the surrounding hard-bottom communities. Once the units are retrieved, the organisms that colonised them are sampled and analysed. The aim of ARMS-MBON is to assess the status of, and changes in, the hard-bottom communities of these near-coast environments, using DNA (metabarcoding), image, and visual inspection methods. The project started in 2018, and from 2023 it will continue as part of EMBRC's <a href="https://www.embrc.eu/emo-bon" target="_blank">EMO BON</a>  (European Marine Omics Biodiversity Observation Network) project. For more information on the ARMS-MBON project, go to its <a href="https:///www.arms-mbon.eu" target="_blank">home page</a>. 
+
+This is you the landing page for all the data of ARMS-MBON, which we share via its Github site. This GitHub space is where all the event, sampling, image, and omics metadata are uploaded, quality controlled, semantically annotated, combined, and shared with others. The scripts and intermediate products arising from the quality control and combining processes can also be found here. Note that large data files (sequences and images) are not archived in this GitHub space, but the links to them are. 
+
+
+
 # React JS Landing Page Template
 ### <a href="https://open-science.vliz.be/example-bon-site-to-pages/" target="_blank">LIVE DEMO</a> 
 
