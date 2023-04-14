@@ -4,13 +4,13 @@ In ARMS-MBON we use ARMS units to sample the biodiversity of the European coasta
 This landing page gives you access to all the data collected by ARMS-MBON: all the event, sampling, image, and omics metadata are uploaded, quality controlled, semantically annotated, combined, and shared with others on our Github site. The scripts and intermediate products arising from the quality control and combining processes can also be found here. Note that large data files (sequences and images) are archived elsewhere: here we provide the links to those files. 
 
 Read further, or use the menu to go directly to:
-- The Data Explorer, to access the QCd and combined ARMS-MBON data
+- The Data Explorer, to access the qulity controlled and combined ARMS-MBON data
 - Our Publications
-- Our RO-Crates / repositories of data
-- Our RO-Profiles, via which we format our RO-Crates
-- The Teams
+- Our RO-Crates(*)
+- Our RO-Profiles(*)
+- The Team
 
-*A short word about RO-Crates and RO-Profiles*. We use <a href="https://www.researchobject.org/ro-crate/" target="_blank">RO-Crates</a> to package our data files so that they are linked, described, and semantically-annotated; RO-Profiles are the templates for RO-Crates so that each type of data-package can be formatted consistently for the same types of data and data users. This Research Object-approach is fundamental to the way we share our data so that they are FAIR. Every Github repository is a single RO-Crate.  
+(*)A short word about RO-Crates and RO-Profiles. We use <a href="https://www.researchobject.org/ro-crate/" target="_blank">RO-Crates</a> to package our data files so that they are linked, described, and semantically-annotated; RO-Profiles are the templates for RO-Crates so that each type of data-package can be formatted consistently for the same types of data and data users. This Research Object-approach is fundamental to the way we share our data so that they are FAIR. Every Github repository is a single RO-Crate.  
 
 # React JS Landing Page Template
 ### <a href="https://open-science.vliz.be/example-bon-site-to-pages/" target="_blank">LIVE DEMO</a> 
