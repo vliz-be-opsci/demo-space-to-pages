@@ -1,9 +1,17 @@
-**ARMS-MBON** is a *European Marine Biodiversity Observation Network (MBON)* of *Autonomous Reef Monitoring Structures (ARMS)*. <br>
-In this project we use ARMS units to sample the biodiversity of the European coastal hard-bottom environments. Our ARMS units are placed for months at a time in the vicinity of marine stations, ports, marinas, and long-term ecological research sites (LTER) distributed over Europe and polar regions. They are populated by the surrounding hard-bottom communities, and once the units are retrieved, the organisms that colonised them are sampled and analysed. The aim of ARMS-MBON is to assess the status of, and changes in, the hard-bottom communities of these near-coast environments, using DNA (metabarcoding), image, and visual inspection methods. The project started in 2018, and from 2023 it will continue as part of EMBRC's <a href="https://www.embrc.eu/emo-bon" target="_blank">EMO BON</a>  (European Marine Omics Biodiversity Observation Network) project. For more information on the ARMS-MBON project, go to its <a href="https:///www.arms-mbon.eu" target="_blank">home page</a>. 
+<p style="text-align: center;">**ARMS-MBON** is a **European Marine Biodiversity Observation Network (MBON)** of **Autonomous Reef Monitoring Structures (ARMS)**.</p> 
 
-This landing page gives you access to all the data collected by ARMS-MBON: all the event, sampling, image, and omics metadata are uploaded, quality controlled, semantically annotated, combined, and shared with others on this Github site. The scripts and intermediate products arising from the quality control and combining processes can also be found here. Note that for large data files (sequences and images) we provide the links to the files which are themselves archived elsewhere. 
+In ARMS-MBON we use ARMS units to sample the biodiversity of the European coastal hard-bottom environments. Our ARMS units are placed for months at a time in the vicinity of marine stations, ports, marinas, and long-term ecological research sites distributed over Europe and polar regions. They are populated by the surrounding hard-bottom communities, and once the units are retrieved, the organisms that colonised them are sampled and analysed. The aim of ARMS-MBON is to assess the status of, and changes in, the hard-bottom communities of these near-coast environments, using DNA (metabarcoding), image, and visual inspection methods. The project started in 2018, and from 2023 it will continue as part of EMBRC's <a href="https://www.embrc.eu/emo-bon" target="_blank">EMO BON</a>  (European Marine Omics Biodiversity Observation Network) project. For more information on the ARMS-MBON project, go to its <a href="https:///www.arms-mbon.eu" target="_blank">home page</a>. 
 
+This landing page gives you access to all the data collected by ARMS-MBON: all the event, sampling, image, and omics metadata are uploaded, quality controlled, semantically annotated, combined, and shared with others on our Github site. The scripts and intermediate products arising from the quality control and combining processes can also be found here. Note that for large data files (sequences and images) we provide the links to the files which are themselves archived elsewhere. 
 
+Read further, or use the menu to go directly to:
+- The Data Explorer, to access the QCd and combined ARMS-MBON data
+- Our Publications
+- Our RO-Crates / repositories of data
+- Our RO-Profiles, via which we format our RO-Crates
+- The Teams
+
+*A short word about RO-Crates and RO-Profiles*. We use <a href="https://www.researchobject.org/ro-crate/" target="_blank">RO-Crates</a> to package our data files so that they are linked, described, and semantically-annotated; RO-Profiles are the templates for RO-Crates so that each type of data-package can be formatted consistently for the same types of data and data users. This Research Object-approach is fundamental to the way we share our data so that they are FAIR. Every Github repository is a single RO-Crate.  
 
 # React JS Landing Page Template
 ### <a href="https://open-science.vliz.be/example-bon-site-to-pages/" target="_blank">LIVE DEMO</a> 
