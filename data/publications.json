@@ -1,9 +1,9 @@
 [
     {
-        "title": "Something Something interesting",
-        "text": "Text about something interesting here A",
+        "title": "Genomics Observatory use-case: the challenge to standardise image and sequence data to Darwin Core format. Biodiversity Information Science and Standards 4",
+        "text": "Exter, K et al.",
         "img": "/img/publications/1.jpg",
-        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+        "link": "https://dx.doi.org/10.3897/biss.4.58938"
     },
     {
         "title": "The cat in the hat",
