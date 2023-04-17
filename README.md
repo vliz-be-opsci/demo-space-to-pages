@@ -1,4 +1,5 @@
 Write a short "About" bit of text here 
+Then delete all the text below here - that text is for you to read as you are creating the site, so you know how to do it
 
 # React JS Landing Page Template
 ### <a href="https://open-science.vliz.be/example-bon-site-to-pages/" target="_blank">LIVE DEMO</a> 
