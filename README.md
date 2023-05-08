@@ -12,6 +12,7 @@
 This is a ReactJS based landing page template.
 All 'visual' data can be easily modified by changing the json files located in the data folder.
 
+
 ## Make it Yours!
 ### 1. Add your own data 
 Change the data in the ```data/``` folder as well as add any images to ```img/``` folder.
