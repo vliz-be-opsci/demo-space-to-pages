@@ -3,6 +3,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix da: <https://open-vocabularies.vliz.be/dmbonassistant#> .
+@prefix schema: <http://schema.org/> .
 
 <https://orcid.org/0000-0000-0000-0000>
     a foaf:Person ;
@@ -23,62 +24,71 @@
     .
     
 
-<https://vliz-be-opsci.github.io/vliz-be-opsci/example-bon-site-to-pages> rdf:type foaf:Project ;
-    dc:title "Autonomous Reef Monitoring System" ;
-    foaf:name "ARMS" ;
-    dc:description "Welcome to the landing page for the data from the European ARMS programme (ARMS-MBON)" ;
-    foaf:logo <https://www.researchobject.org/ro-crate/assets/img/ro-crate-w-text.svg> 
+<https://vliz-be-opsci.github.io/vliz-be-opsci/demo-space-to-pages> rdf:type foaf:Project ;
+    dc:title "Test Spaces-To-Pages" ;
+    foaf:name "Test space to pages" ;
+    dc:description "Welcome to the landing page test site. This is supposed to be a short desciption" ;
+    foaf:logo <https://www.researchobject.org/ro-crate/assets/img/ro-crate-w-text.svg>;
+    schema:mainEntityOfPage <https://vliz-be-opsci.github.io/vliz-be-opsci/demo-space-to-pages>;
+    schema:hasPart [
+        rdf:type schema:ItemList;
+        schema:partOf <https://vliz-be-opsci.github.io/vliz-be-opsci/demo-space-to-pages>;
+        schema:name "Profiles in Test Spaces-To-Pages" ;
+        schema:itemListElement </demo-profile>;
+        ],
+    [
+        rdf:type schema:ItemList;
+        schema:partOf <https://vliz-be-opsci.github.io/vliz-be-opsci/demo-space-to-pages>;
+        schema:name "Crates in Test Spaces-To-Pages" ;
+        schema:itemListElement </demo-rocrate>;
+        ];
+    
+    schema:hasPart <https://dx.doi.org/10.3897/biss.4.58938>;
+    
+    schema:hasPart <https://dx.doi.org/10.3389/fmars.2020.572680>;
+    
+    schema:hasPart <https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley>;
+    
+    schema:hasPart <https://dx.doi.org/10.3897/aca.4.e64760>;
+    
     .
+
 <https://www.researchobject.org/ro-crate/assets/img/ro-crate-w-text.svg> rdf:type foaf:Image 
-.
-
-<http://www.google.com> rdf:type da:crateRepo ;
-    dc:title "Lorem ipsum" ;
-    dc:description "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam." 
     .
 
-<http://www.google.com> rdf:type da:crateRepo ;
-    dc:title "Lorem ipsum" ;
-    dc:description "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam." 
+
+</demo-profile> rdf:type schema:ListItem, schema:CreativeWork ;
+    dc:title "Demo profile" ;
+    dc:description "Demo profile of the vliz-be-opsci space to test action features on." ;
+    schema:item </demo-profile> ;
     .
 
-<http://www.google.com> rdf:type da:crateRepo ;
-    dc:title "Lorem ipsum" ;
-    dc:description "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam." 
+</demo-rocrate> rdf:type schema:ListItem, schema:CreativeWork ;
+    dc:title "demo-rocrate" ;
+    dc:description "Demo rocrate of the vliz-be-opsci space to test out actions." ;
+    schema:item </demo-rocrate> ;
     .
 
-<http://www.google.com> rdf:type da:crateRepo ;
-    dc:title "Lorem ipsum" ;
-    dc:description "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam." 
+<https://dx.doi.org/10.3897/biss.4.58938> rdf:type schema:CreativeWork ;
+    dc:title "Genomics Observatory use-case: the challenge to standardise image and sequence data to Darwin Core format. Biodiversity Information Science and Standards 4" ;
+    dc:description "Exter, Katrina, et al. Genomics Observatory Use-Case: the challenge to standardise image and sequence data to Darwin Core format.Biodiversity Information Science and Standards 4 (2020): e58938" ;
+    schema:url <https://dx.doi.org/10.3897/biss.4.58938> ;
     .
 
-<http://www.google.com> rdf:type da:crateRepo ;
-    dc:title "Lorem ipsum dolor" ;
-    dc:description "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at." 
+<https://dx.doi.org/10.3389/fmars.2020.572680> rdf:type schema:CreativeWork ;
+    dc:title "A Marine Biodiversity Observation Network for Genetic Monitoring of Hard-Bottom Communities (ARMS-MBON)" ;
+    dc:description "Obst, Matthias, et al. A marine biodiversity observation network for genetic monitoring of hard-bottom communities (ARMS-MBON). Frontiers in Marine Science 7 (2020): 572680." ;
+    schema:url <https://dx.doi.org/10.3389/fmars.2020.572680> ;
     .
 
-<http://www.google.com> rdf:type da:crateRepo ;
-    dc:title "Consectetur adipiscing" ;
-    dc:description "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at." 
+<https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley> rdf:type schema:CreativeWork ;
+    dc:title "Artificial Reef Monitoring Structures (ARMS) providing insights on the marine biodiversity and community structure. Genomic Observatories/ASSEMBLE/Interreg Balkan-Mediterranean/IMBBS/HCMR" ;
+    dc:description "Pavloudi, Christina, et al. Artificial Reef Monitoring Structures (ARMS) providing insights on the marine biodiversity and community structure.(2019)." ;
+    schema:url <https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley> ;
     .
 
-<http://www.google.com> rdf:type da:crateRepo ;
-    dc:title "Lorem ipsum dolor" ;
-    dc:description "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at." 
+<https://dx.doi.org/10.3897/aca.4.e64760> rdf:type schema:CreativeWork ;
+    dc:title "Artificial Reef Monitoring Structures (ARMS) providing insights on hard substrate biodiversity and community structure of the Eastern Mediterranean Sea" ;
+    dc:description "Pavloudi, Christina, et al. Artificial Reef Monitoring Structures (ARMS) providing insights on hard substrate biodiversity and community structure of the Eastern Mediterranean Sea. ARPHA Conference Abstracts. Vol. 4. Pensoft Publishers, 2021." ;
+    schema:url <https://dx.doi.org/10.3897/aca.4.e64760> ;
     .
-
-<http://www.google.com> rdf:type da:crateRepo ;
-    dc:title "Consectetur adipiscing" ;
-    dc:description "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at." 
-    .
-
-<http://www.google.com> rdf:type da:crateRepo ;
-    dc:title "Lorem ipsum dolor" ;
-    dc:description "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at." 
-    .
-
-<http://www.google.com> rdf:type da:crateRepo ;
-    dc:title "Consectetur adipiscing" ;
-    dc:description "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at." 
-    .
-
