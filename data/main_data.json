@@ -1,9 +1,9 @@
 {
-    "name_site": "ARMS",
+    "name_site": "Test space to pages",
     "main_image": "https://assets.newatlas.com/dims4/default/e58452e/2147483647/strip/true/crop/1498x999+0+0/resize/1440x960!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Fb1%2Fb4%2F2a5bc31341fbaa31e2230d038f66%2Ficture1.jpeg",
-    "description": "Welcome to the landing page for the data from the European ARMS programme (ARMS-MBON)",
-    "long_name": "Autonomous Reef Monitoring System",
-    "short_name": "ARMS",
+    "description": "Welcome to the landing page test site. This is supposed to be a short desciption",
+    "long_name": "Test Spaces-To-Pages",
+    "short_name": "STP",
     "logo": "https://www.researchobject.org/ro-crate/assets/img/ro-crate-w-text.svg",
     "markdown_about_us":"README.md"
 }
