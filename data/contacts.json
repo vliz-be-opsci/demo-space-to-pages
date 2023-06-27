@@ -1,9 +1,9 @@
 [
   {
       "img": "img/blue_shy_guy.png",
-      "name": "Cedric Decruw",
+      "name": "Janette doe",
       "job": "Corporate Directives Executive",
-      "email": "cedricdecruw@doe.com",
+      "email": "janette@doe.com",
       "ORCID": "0000-0000-0000-0000",
       "affiliation": {
           "name": "University of Test",
@@ -13,9 +13,9 @@
     },
     {
       "img": "img/contacts/01.jpg",
-      "name": "Marc Portier",
+      "name": "John doe",
       "job": "Team Lead",
-      "email": "marc.portier@vliz.be",
+      "email": "example@mail.com",
       "ORCID": "0000-0000-0000-0000",
       "affiliation": {
           "name": "University of Test",
@@ -25,9 +25,9 @@
     },
     {
       "img": "img/contacts/03.jpg",
-      "name": "Katrina Exter",
+      "name": "Jane dough",
       "job": "Senior Science Officer",
-      "email": "katrina.exter@vliz.be",
+      "email": "example@mail.com",
       "ORCID": "0000-0000-0000-0000",
       "affiliation": {
           "name": "University of Test",
