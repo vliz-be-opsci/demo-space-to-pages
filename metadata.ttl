@@ -7,20 +7,20 @@
 
 <https://orcid.org/0000-0000-0000-0000>
     a foaf:Person ;
-    foaf:name "Cedric Decruw" ;
-    foaf:mbox <mailto:cedricdecruw@doe.com> ;
+    foaf:name "Janette doe" ;
+    foaf:mbox <mailto:janette@doe.com> ;
     .
     
 <https://orcid.org/0000-0000-0000-0000>
     a foaf:Person ;
-    foaf:name "Marc Portier" ;
-    foaf:mbox <mailto:marc.portier@vliz.be> ;
+    foaf:name "John doe" ;
+    foaf:mbox <mailto:example@mail.com> ;
     .
     
 <https://orcid.org/0000-0000-0000-0000>
     a foaf:Person ;
-    foaf:name "Katrina Exter" ;
-    foaf:mbox <mailto:katrina.exter@vliz.be> ;
+    foaf:name "Jane dough" ;
+    foaf:mbox <mailto:example@mail.com> ;
     .
     
 
