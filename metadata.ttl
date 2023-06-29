@@ -43,13 +43,13 @@
         schema:itemListElement </demo-rocrate>;
         ];
     
-    schema:hasPart <https://dx.doi.org/10.3897/biss.4.58938>;
+    schema:hasPart <http://example.org/publication1>;
     
-    schema:hasPart <https://dx.doi.org/10.3389/fmars.2020.572680>;
+    schema:hasPart <http://example.org/publication2>;
     
-    schema:hasPart <https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley>;
+    schema:hasPart <http://example.org/publication3>;
     
-    schema:hasPart <https://dx.doi.org/10.3897/aca.4.e64760>;
+    schema:hasPart <http://example.org/publication4>;
     
     .
 
@@ -69,26 +69,26 @@
     schema:item </demo-rocrate> ;
     .
 
-<https://dx.doi.org/10.3897/biss.4.58938> rdf:type schema:CreativeWork ;
+<http://example.org/publication1> rdf:type schema:CreativeWork ;
     dc:title "Genomics Observatory use-case: the challenge to standardise image and sequence data to Darwin Core format. Biodiversity Information Science and Standards 4" ;
-    dc:description "Exter, Katrina, et al. Genomics Observatory Use-Case: the challenge to standardise image and sequence data to Darwin Core format.Biodiversity Information Science and Standards 4 (2020): e58938" ;
-    schema:url <https://dx.doi.org/10.3897/biss.4.58938> ;
+    dc:description "example publication 1 with some authors" ;
+    schema:url <http://example.org/publication1> ;
     .
 
-<https://dx.doi.org/10.3389/fmars.2020.572680> rdf:type schema:CreativeWork ;
+<http://example.org/publication2> rdf:type schema:CreativeWork ;
     dc:title "A Marine Biodiversity Observation Network for Genetic Monitoring of Hard-Bottom Communities (ARMS-MBON)" ;
-    dc:description "Obst, Matthias, et al. A marine biodiversity observation network for genetic monitoring of hard-bottom communities (ARMS-MBON). Frontiers in Marine Science 7 (2020): 572680." ;
-    schema:url <https://dx.doi.org/10.3389/fmars.2020.572680> ;
+    dc:description "example publication 2 with some authors" ;
+    schema:url <http://example.org/publication2> ;
     .
 
-<https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley> rdf:type schema:CreativeWork ;
+<http://example.org/publication3> rdf:type schema:CreativeWork ;
     dc:title "Artificial Reef Monitoring Structures (ARMS) providing insights on the marine biodiversity and community structure. Genomic Observatories/ASSEMBLE/Interreg Balkan-Mediterranean/IMBBS/HCMR" ;
-    dc:description "Pavloudi, Christina, et al. Artificial Reef Monitoring Structures (ARMS) providing insights on the marine biodiversity and community structure.(2019)." ;
-    schema:url <https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley> ;
+    dc:description "example publication 3 with some authors" ;
+    schema:url <http://example.org/publication3> ;
     .
 
-<https://dx.doi.org/10.3897/aca.4.e64760> rdf:type schema:CreativeWork ;
+<http://example.org/publication4> rdf:type schema:CreativeWork ;
     dc:title "Artificial Reef Monitoring Structures (ARMS) providing insights on hard substrate biodiversity and community structure of the Eastern Mediterranean Sea" ;
-    dc:description "Pavloudi, Christina, et al. Artificial Reef Monitoring Structures (ARMS) providing insights on hard substrate biodiversity and community structure of the Eastern Mediterranean Sea. ARPHA Conference Abstracts. Vol. 4. Pensoft Publishers, 2021." ;
-    schema:url <https://dx.doi.org/10.3897/aca.4.e64760> ;
+    dc:description "example publication 4 with some authors" ;
+    schema:url <http://example.org/publication4> ;
     .
