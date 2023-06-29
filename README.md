@@ -4,7 +4,7 @@
 
 
 # React JS Landing Page Template
-### <a href="https://open-science.vliz.be/example-bon-site-to-pages/" target="_blank">LIVE DEMO</a> 
+### <a href="https://open-science.vliz.be/demo-space-to-pages/" target="_blank">LIVE DEMO</a> 
 
 #### The demo repo is located [here](https://github.com/vliz-be-opsci/example-bon-site-to-pages)
 
