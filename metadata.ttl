@@ -3,6 +3,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix da: <https://open-vocabularies.vliz.be/dmbonassistant#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix schema: <http://schema.org/> .
 
 <https://orcid.org/0000-0000-0000-0000>
@@ -24,71 +25,67 @@
     .
     
 
-<https://vliz-be-opsci.github.io/vliz-be-opsci/demo-space-to-pages> rdf:type foaf:Project ;
+
+<https://vliz-be-opsci.github.io/vliz-be-opsci/demo-space-to-pages> rdf:type foaf:Project, dcat:Catalog ;
     dc:title "Test Spaces-To-Pages" ;
     foaf:name "Test space to pages" ;
     dc:description "Welcome to the landing page test site. This is supposed to be a short desciption" ;
-    foaf:logo <https://www.researchobject.org/ro-crate/assets/img/ro-crate-w-text.svg>;
-    schema:mainEntityOfPage <https://vliz-be-opsci.github.io/vliz-be-opsci/demo-space-to-pages>;
-    schema:hasPart [
-        rdf:type schema:ItemList;
-        schema:partOf <https://vliz-be-opsci.github.io/vliz-be-opsci/demo-space-to-pages>;
-        schema:name "Profiles in Test Spaces-To-Pages" ;
-        schema:itemListElement </demo-profile>;
-        ],
-    [
-        rdf:type schema:ItemList;
-        schema:partOf <https://vliz-be-opsci.github.io/vliz-be-opsci/demo-space-to-pages>;
-        schema:name "Crates in Test Spaces-To-Pages" ;
-        schema:itemListElement </demo-rocrate>;
-        ];
-    
-    schema:hasPart <http://example.org/publication1>;
-    
-    schema:hasPart <http://example.org/publication2>;
-    
-    schema:hasPart <http://example.org/publication3>;
-    
-    schema:hasPart <http://example.org/publication4>;
-    
+    foaf:logo <https://www.researchobject.org/ro-crate/assets/img/ro-crate-w-text.svg> ;
+    schema:mainEntityOfPage <https://vliz-be-opsci.github.io/vliz-be-opsci/demo-space-to-pages> ;
+    foaf:homepage <https://vliz-be-opsci.github.io/vliz-be-opsci/demo-space-to-pages> ;
+    dcat:dataset 
+    </demo-profile>,
+     
+    <https://vliz-be-opsci.github.io/vliz-be-opsci/demo-space-to-pages>
     .
 
+
+    # 
+    # schema:hasPart <http://example.org/publication1>;
+    # 
+    # schema:hasPart <http://example.org/publication2>;
+    # 
+    # schema:hasPart <http://example.org/publication3>;
+    # 
+    # schema:hasPart <http://example.org/publication4>;
+    # 
 <https://www.researchobject.org/ro-crate/assets/img/ro-crate-w-text.svg> rdf:type foaf:Image 
     .
 
 
-</demo-profile> rdf:type schema:ListItem, schema:CreativeWork ;
+</demo-profile> rdf:type dcat:Dataset, schema:CreativeWork ;
     dc:title "Demo profile" ;
     dc:description "Demo profile of the vliz-be-opsci space to test action features on." ;
     schema:item </demo-profile> ;
     .
 
-</demo-rocrate> rdf:type schema:ListItem, schema:CreativeWork ;
+<> rdf:type dcat:Dataset, schema:CreativeWork ;
     dc:title "demo-rocrate" ;
     dc:description "Demo rocrate of the vliz-be-opsci space to test out actions." ;
     schema:item </demo-rocrate> ;
     .
-
-<http://example.org/publication1> rdf:type schema:CreativeWork ;
-    dc:title "Genomics Observatory use-case: the challenge to standardise image and sequence data to Darwin Core format. Biodiversity Information Science and Standards 4" ;
-    dc:description "example publication 1 with some authors" ;
-    schema:url <http://example.org/publication1> ;
-    .
-
-<http://example.org/publication2> rdf:type schema:CreativeWork ;
-    dc:title "A Marine Biodiversity Observation Network for Genetic Monitoring of Hard-Bottom Communities (ARMS-MBON)" ;
-    dc:description "example publication 2 with some authors" ;
-    schema:url <http://example.org/publication2> ;
-    .
-
-<http://example.org/publication3> rdf:type schema:CreativeWork ;
-    dc:title "Artificial Reef Monitoring Structures (ARMS) providing insights on the marine biodiversity and community structure. Genomic Observatories/ASSEMBLE/Interreg Balkan-Mediterranean/IMBBS/HCMR" ;
-    dc:description "example publication 3 with some authors" ;
-    schema:url <http://example.org/publication3> ;
-    .
-
-<http://example.org/publication4> rdf:type schema:CreativeWork ;
-    dc:title "Artificial Reef Monitoring Structures (ARMS) providing insights on hard substrate biodiversity and community structure of the Eastern Mediterranean Sea" ;
-    dc:description "example publication 4 with some authors" ;
-    schema:url <http://example.org/publication4> ;
-    .
+# 
+# <http://example.org/publication1> rdf:type schema:CreativeWork ;
+#     dc:title "Genomics Observatory use-case: the challenge to standardise image and sequence data to Darwin Core format. Biodiversity Information Science and Standards 4" ;
+#     dc:description "example publication 1 with some authors" ;
+#     schema:url <http://example.org/publication1> ;
+#     .
+# 
+# <http://example.org/publication2> rdf:type schema:CreativeWork ;
+#     dc:title "A Marine Biodiversity Observation Network for Genetic Monitoring of Hard-Bottom Communities (ARMS-MBON)" ;
+#     dc:description "example publication 2 with some authors" ;
+#     schema:url <http://example.org/publication2> ;
+#     .
+# 
+# <http://example.org/publication3> rdf:type schema:CreativeWork ;
+#     dc:title "Artificial Reef Monitoring Structures (ARMS) providing insights on the marine biodiversity and community structure. Genomic Observatories/ASSEMBLE/Interreg Balkan-Mediterranean/IMBBS/HCMR" ;
+#     dc:description "example publication 3 with some authors" ;
+#     schema:url <http://example.org/publication3> ;
+#     .
+# 
+# <http://example.org/publication4> rdf:type schema:CreativeWork ;
+#     dc:title "Artificial Reef Monitoring Structures (ARMS) providing insights on hard substrate biodiversity and community structure of the Eastern Mediterranean Sea" ;
+#     dc:description "example publication 4 with some authors" ;
+#     schema:url <http://example.org/publication4> ;
+#     .
+# 
