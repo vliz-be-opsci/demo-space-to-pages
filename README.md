@@ -236,4 +236,3 @@ Resolve this issue by following the steps below:
 ## Credits
 ##### Free CSS 
 <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
-
